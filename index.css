@@ -1,0 +1,71 @@
+body{
+    background-color: #F5EBE4;
+    padding: 390px; 
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+
+}
+
+.container__image{
+        padding: 1px;
+        border-radius: 5px;
+    }
+.image{
+    width: 200px;
+    height: 303px;
+}
+
+.container__item{
+
+    padding: 14px;
+    background-color: white;
+    border-radius: 5px;
+    height: 274px;
+
+}
+
+.description{
+
+    font-family: Century Gothic;
+    font-size: 12px;
+    color:  rgb(163, 161, 161);
+    text-align: left;
+    line-height: 15px;
+}
+
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(163, 161, 161);
+    letter-spacing: 5px;
+}
+.price {
+    font-family: Britannic Bold;
+    font-size: 10px;
+    text-decoration: line-through;
+    color: rgb(163, 161, 161);
+
+}
+
+.pricen {
+    font-family: Bodoni MT Black;
+   font-size: 20px;
+    color:mediumseagreen;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.buy{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 35px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color:mediumseagreen;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
